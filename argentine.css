@@ -246,6 +246,7 @@
 
 		.color_key ul li p {
 			font-size: 1.2rem;
+			float: left; margin: -1px 5px 0
 		}
 
 		#purple_key {
@@ -473,24 +474,23 @@
 
 
 		h2.name {
-			padding: 0;
 			margin: 0 0 10px;
 			color: #f2f2f2;
 		}
 
-		#purple {
+		.purple {
 			background: #6a6e8c;
 			padding: 10px;
 			border-radius: 10px 10px 0 0;
 		}
 
-		#beige {
+		.beige {
 			background: #e5a923;
 			padding: 10px;
 			border-radius: 10px 10px 0 0;
 		}
 
-		#blue {
+		.blue {
 			background: #76ABE2;
 			padding: 10px;
 			border-radius: 10px 10px 0 0;
