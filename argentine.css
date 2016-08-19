@@ -223,13 +223,16 @@
 			height: 40px;
 			font-weight: bold;
 			text-align: center;
-		    margin: 24px 5px 15px 25%;
+		    margin: 24px 5px 15px 15%;
 		}
 
 		@media screen and (max-width: 590px) {
 			.color_key {
-				margin: 20px 5px 25px -10%;
+				margin: 20px 25px 25px 25%;
 				font-size: 1rem;
+			}
+			.color_key ul li {
+				height:15px;
 			}
 		}
 
@@ -237,7 +240,7 @@
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
-			width: 450px;
+			width: 475px;
 		}
 
 		.color_key ul li {
@@ -249,7 +252,7 @@
 			float: left; margin: -1px 5px 0;
 		}
 
-		#purple_key {
+		#complete_key {
 			height: 12px;
 			width: 12px;
 			background-color: #6a6e8c;
@@ -257,21 +260,30 @@
 			margin-right: 10px;
 		}
 
-		#beige_key {
+		#inprogress_key {
 			height: 12px;
 			width: 12px;
-			background-color:#e5a923;
+			background-color:#F4BD94;
 			float: left;
 			margin-right: 10px;
 		}
 
-		#blue_key {
+		#announced_key {
 			height: 12px;
 			width: 12px;
 			background-color: #76ABE2;
 			float: left;
 			margin-right: 10px;
 		}
+
+		#unannounced_key {
+			height: 12px;
+			width: 12px;
+			background-color: #BF5931;
+			float: left;
+			margin-right: 10px;
+		}
+
 
 		.policycontainer {
 			margin: 10px 2% 50px;
@@ -476,24 +488,24 @@
 		h2.name {
 			margin: 0 0 10px;
 			color: #f2f2f2;
+			padding: 10px;
+			border-radius: 10px 10px 0 0;
 		}
 
-		.purple {
+		.complete {
 			background: #6a6e8c;
-			padding: 10px;
-			border-radius: 10px 10px 0 0;
 		}
 
-		.beige {
+		.inprogress {
 			background: #e5a923;
-			padding: 10px;
-			border-radius: 10px 10px 0 0;
 		}
 
-		.blue {
+		.announced {
 			background: #76ABE2;
-			padding: 10px;
-			border-radius: 10px 10px 0 0;
+		}
+
+		.unannounced {
+			background: #BF5931;
 		}
 
 		.status {
