@@ -457,10 +457,10 @@
 				height: 255px;
 			}
 			.policy h2 {
-				font-size: 1.6rem;
+				font-size: 1.5rem;
 			}
 			.policy p {
-				font-size: 1.2rem;
+				font-size: 1.1rem;
 			}
 		}
 
@@ -526,7 +526,7 @@
 		.desc {
 			margin: 0;
 			padding: 15px;
-			font-size: 14px;
+			font-size: 1.4rem;
 		}
 
 		#method {
