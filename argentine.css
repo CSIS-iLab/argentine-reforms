@@ -477,6 +477,10 @@
 				width: 240px;
 				height: 240px;
 			}
+
+			.status {
+				margin-top: 10px !important;
+			}
 		}
 
 		#policy-align {
