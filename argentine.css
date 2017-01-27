@@ -457,10 +457,10 @@
 				height: 255px;
 			}
 			.policy h2 {
-				font-size: 1.5rem;
+				font-size: 1.4rem !important;
 			}
-			.policy p {
-				font-size: 1.1rem;
+			.policy p, .info-text p {
+				font-size: 1.1rem !important;
 			}
 		}
 
