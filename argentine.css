@@ -276,7 +276,7 @@
 			margin-right: 10px;
 		}
 
-		#unannounced_key {
+		#incomplete_key {
 			height: 12px;
 			width: 12px;
 			background-color: #BF5931;
@@ -504,7 +504,7 @@
 			background: #76ABE2;
 		}
 
-		.unannounced {
+		.incomplete {
 			background: #BF5931;
 		}
 
