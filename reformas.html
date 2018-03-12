@@ -772,12 +772,15 @@
 
 <div id="copyright">
 	
-	<p>© The Center for Strategic and International Studies 2017 | <a href="#csis">Back to top</a></p>
+	<p>© The Center for Strategic and International Studies <span class="copyright-year"></span> | <a href="#csis">Back to top</a></p>
 
 </div>
 
 		<script type="text/javascript">
 $( document ).ready( function() {
+	// Update Year
+	$('.copyright-year').text(new Date().getFullYear())
+	
   // init Isotope
   var $container = $('.policycontainer').isotope({
     itemSelector: '.policy',
